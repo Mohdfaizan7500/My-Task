@@ -1,8 +1,11 @@
 {
   "expo": {
-    "name": "mytask",
+    "name": "My Task",
     "slug": "mytask",
     "version": "1.0.0",
+     "android": {
+      "package": "com.faizan.mytask"
+    },
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "mytask",
@@ -37,6 +40,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "84c29011-a317-47eb-9bd8-a85592f055bb"
+      }
+    },
+    "owner": "faizanpathan70"
   }
 }

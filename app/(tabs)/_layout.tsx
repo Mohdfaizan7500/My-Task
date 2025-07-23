@@ -1,6 +1,8 @@
+// import 'expo-dev-client';
 import { Tabs } from 'expo-router';
 import React from 'react';
 import { Platform } from 'react-native';
+
 
 import { HapticTab } from '@/components/HapticTab';
 import { IconSymbol } from '@/components/ui/IconSymbol';
