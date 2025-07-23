@@ -1,50 +1,79 @@
-# Welcome to your Expo app 👋
+Task Manager App (Expo)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+📱 Overview
+A simple yet powerful task management app built with React Native and Expo to help you organize your daily tasks efficiently.
 
-## Get started
+✨ Features
+✅ Add, edit, and delete tasks
+🏷️ Mark tasks as complete (with strikethrough)
+🔍 Search through your tasks
+📅 Set due dates and priorities
+🚀 Local notifications for reminders
 
-1. Install dependencies
 
-   ```bash
-   npm install
-   ```
+🛠️ Technologies Used
+React Native
+Expo
+Expo Notifications
+AsyncStorage (for local data persistence)
+React Navigation
+React Native Gesture Handler
 
-2. Start the app
+📦 Installation
+First, clone the repository:
 
-   ```bash
-   npx expo start
-   ```
+1.git clone https://github.com/Mohdfaizan7500/My-Task.git
+cd mytask
 
-In the output, you'll find options to open the app in a
+2.Install dependencies:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+npm install
+# or
+yarn install
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+3.Start the development server:
+npm start
+# or
+yarn start
 
-## Get a fresh project
+🏃‍♂️ Running the App
+For iOS:
+bash
 
-When you're ready, run:
+Run
+Copy code
+npx expo start --ios
+# or press 'i' in the Expo CLI
 
-```bash
-npm run reset-project
-```
+For Android:
+bash
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Run
+Copy code
+npx expo start --android
+# or press 'a' in the Expo CLI
 
-## Learn more
+For best experience, use the Expo Go app on your mobile device.
 
-To learn more about developing your project with Expo, look at the following resources:
+📂 Project Structure
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+src/
+├── assets/            # Images and fonts
+├── components/        # Reusable components
+├── constants/         # Colors, themes, etc.
+├── context/           # React context providers
+├── Navigation/        # App navigation
+├── screens/           # Main app screens
+├── utils/             # Helper functions
+├── App.js            # Main app entry
+└── README.md
 
-## Join the community
+📝 Planned Features
+[ ] Cloud sync with Firebase
+[ ] Recurring tasks
+[ ] Task categories
+[ ] More customization options
 
-Join our community of developers creating universal apps.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+🤝 Contributing
+Contributions are welcome! Please open an issue first to discuss any changes.

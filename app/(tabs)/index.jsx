@@ -20,9 +20,7 @@ const index = () => {
     requestPermissions();
   }, []);
   return (
-    // <TaskProvider>
     <Navigation />
-    // </TaskProvider>
   )
 }
 

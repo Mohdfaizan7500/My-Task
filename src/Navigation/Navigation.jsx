@@ -6,9 +6,24 @@ import Splash from '../screens/Splash';
 import TaskList from '../screens/TaskList';
 const Stack = createNativeStackNavigator();
 
+ useEffect(() => {
+    Notifications.setNotificationHandler({
+      handleNotification: async () => ({
+        shouldPlaySound: true,
+        shouldSetBadge: true,
+        shouldShowBanner: true,
+        shouldShowList: true,
+      }),
+    });
+    // Optional: Request notification permissions
+    const requestPermissions = async () => {
+      await Notifications.requestPermissionsAsync();
+    };
+    requestPermissions();
+  }, []);
+
 const Navigation = () => {
   return (
-    // <NavigationContainer>
     <TaskProvider>
       <Stack.Navigator screenOptions={{ headerShown: false }}>
         <Stack.Screen name='Splash' component={Splash} />
@@ -16,7 +31,6 @@ const Navigation = () => {
         <Stack.Screen name='Add Task' component={AddTask} />
       </Stack.Navigator>
     </TaskProvider>
-    // </NavigationContainer>
   )
 }
 
