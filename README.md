@@ -1,14 +1,21 @@
 Task Manager App (Expo)
 
 📱 Overview
-A simple yet powerful task management app built with React Native and Expo to help you organize your daily tasks efficiently.
+A simple yet powerful task management app built with React Native and Expo to
+help you organize your daily tasks efficiently.
 
 ✨ Features
+
 ✅ Add, edit, and delete tasks
+
 🏷️ Mark tasks as complete (with strikethrough)
+
 🔍 Search through your tasks
+
 📅 Set due dates and priorities
+
 🚀 Local notifications for reminders
+
 
 
 🛠️ Technologies Used
